@@ -1,0 +1,13 @@
+import numpy as np;
+a=np.array([1,5,3,4,5,8])
+b=np.array([5,6,8,0,6,7])
+c=np.concatenate((a,b))
+print(c)
+print('#'*100)
+d=np.arange(1,21).reshape([4,5])
+v=np.arange(31,51).reshape([4,5])
+f=np.concatenate((d,v))
+print(f)
+print('#'*100)
+g=np.concatenate((d,v),axis=1)
+print(g)

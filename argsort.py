@@ -1,0 +1,15 @@
+import numpy as np;
+a=np.array([5,6,4,8,3,7,2,7,1])
+b=[[1,2,3,4],[5,6,7,8]]
+print(np.sort(a))
+print(np.argsort(a))
+print(np.argmax(a))
+print(np.argmax(b))
+c=np.argmax(b,axis=0)
+print(c)
+print(np.argmax(b,axis=1))
+print(np.argmin(a))
+print(np.argmin(b))
+c=np.argmin(b,axis=0)
+print(c)
+print(np.argmin(b,axis=1))

@@ -1,0 +1,13 @@
+import numpy as np;
+a=np.array([[1,3,4,6],[7,7,8,5],[1,2,3,4],[1,2,3,4]])
+print(a.shape)
+b=a.reshape([2,8])
+c=a.reshape([2,4,2])
+d=a.reshape([16])
+print(a)
+print("#"*100)
+print(b)
+print("#"*100)
+print(c)
+print("#"*100)
+print(d)
